@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color:rgb(147, 175, 115);
 }
 
 .App {
@@ -20,13 +21,31 @@ body {
 .card {
   background-color: darkslategray;
   color:white;
-  width: 20vw; 
-  height: 24vw;
+  border: 4px solid #edd9a7;
+  width: 18vw; 
+  height: 22vw;
   margin: 2rem;
+  display:flex;
+  flex-direction:column;
+
+}
+.card:hover {
+  cursor:pointer;
+  user-select:none;
+}
+
+.card-letter {
+  font-size:14vw;
+  margin-top:20px;
+}
+.card-name {
+  margin-top:8px;
+  font-size:3vw;
 }
 
 .content-container {
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
+  justify-content: center;
 }
