@@ -58,6 +58,7 @@ function App() {
   return (
     <div className="App">
       <header className='header'>Memory Card Game</header>
+      <h2>Get points by clicking on a card you haven't clicked before. If you click on one a second time, your score will reset to 0</h2>
       <h3>Score: {currentScore}</h3>
       <h3>Best Score: {bestScore}</h3>
       <div className='content-container'>
